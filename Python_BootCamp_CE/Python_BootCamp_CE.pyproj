@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>39822106-06dd-4aff-b553-175ae28835e0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Python_BootCamp_CE.py</StartupFile>
+    <StartupFile>Dictionaries.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,7 +29,10 @@
     <Compile Include="flask_api.py" />
     <Compile Include="ForLoop.py" />
     <Compile Include="Function.py" />
-    <Compile Include="Python_BootCamp_CE.py" />
+    <Compile Include="Keyword_argument.py" />
+    <Compile Include="Lists.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Statement Assessment Test.py" />
     <Compile Include="Strings.py" />
     <Compile Include="Variable_Assignments.py" />
