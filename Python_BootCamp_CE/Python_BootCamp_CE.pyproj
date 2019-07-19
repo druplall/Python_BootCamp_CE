@@ -23,7 +23,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Conditional_Statements.py" />
+    <Compile Include="Data_Structures.py" />
+    <Compile Include="debug.py" />
+    <Compile Include="Dictionaries.py" />
+    <Compile Include="flask_api.py" />
+    <Compile Include="ForLoop.py" />
+    <Compile Include="Function.py" />
     <Compile Include="Python_BootCamp_CE.py" />
+    <Compile Include="Statement Assessment Test.py" />
+    <Compile Include="Strings.py" />
+    <Compile Include="Variable_Assignments.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
