@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>39822106-06dd-4aff-b553-175ae28835e0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Dictionaries.py</StartupFile>
+    <StartupFile>Sets.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -33,16 +33,19 @@
     <Compile Include="Lists.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Sets.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Statement Assessment Test.py" />
     <Compile Include="Strings.py" />
+    <Compile Include="Tuples.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Variable_Assignments.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
-    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
   </PropertyGroup>
-  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
-  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
        Visual Studio and specify your pre- and post-build commands in
        the BeforeBuild and AfterBuild targets below. -->
@@ -51,4 +54,5 @@
   </Target>
   <Target Name="AfterBuild">
   </Target>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>
