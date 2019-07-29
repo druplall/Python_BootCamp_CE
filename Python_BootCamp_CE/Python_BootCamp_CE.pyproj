@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>39822106-06dd-4aff-b553-175ae28835e0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Sets.py</StartupFile>
+    <StartupFile>TicTacToe.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,6 +29,9 @@
     <Compile Include="flask_api.py" />
     <Compile Include="ForLoop.py" />
     <Compile Include="Function.py" />
+    <Compile Include="GUI.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Keyword_argument.py" />
     <Compile Include="Lists.py">
       <SubType>Code</SubType>
@@ -38,6 +41,9 @@
     </Compile>
     <Compile Include="Statement Assessment Test.py" />
     <Compile Include="Strings.py" />
+    <Compile Include="TicTacToe.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Tuples.py">
       <SubType>Code</SubType>
     </Compile>
