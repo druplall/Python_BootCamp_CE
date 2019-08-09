@@ -31,3 +31,17 @@ def pet_speak(pet):
     print(pet.speak() + ' function test')
 
 pet_speak(niko)
+
+# What is an abstract class ? It is a class we will never expect to instantiate/create an instance of the abstract class
+class Animal():
+    def __init__(self, name):
+        self.name = name
+    
+    def speak(self):
+        raise NotImplementedError('Subclass must implement this abstract method')
+
+c
+
+# This would fail as we are trying to instantiate an abstract class
+#my_animal = Animal('Dog')
+#my_animal.speak()
