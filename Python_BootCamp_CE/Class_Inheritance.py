@@ -24,8 +24,12 @@ class Dog(Animal): # Notice we are passing in the animal class in the Dog class,
     
     # We can overwrite the base class functions -- Just use the same function name
     def who_am_i(self):
-        print('I am dog now')    
+        print('I am dog now')
+
+    def bark(self):
+        print('Woof !')    
 
 myDog = Dog()
 myDog.eat()
 myDog.who_am_i()
+myDog.bark()

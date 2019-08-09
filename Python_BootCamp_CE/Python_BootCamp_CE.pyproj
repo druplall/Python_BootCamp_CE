@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>39822106-06dd-4aff-b553-175ae28835e0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Class_Inheritance.py</StartupFile>
+    <StartupFile>Class_Polymorphism.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,6 +29,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Class_Inheritance.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class_Polymorphism.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Conditional_Statements.py" />
