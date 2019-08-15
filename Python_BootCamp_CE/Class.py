@@ -15,7 +15,7 @@ class Dog():
     # Methods are function that act on the object
     # What is the difference between a function and Method ?
         ## A method is a function within a class
-    def bark(self,number):
+    def bark(self, number):
         print('Woof My name is {} and the number is {}'.format(self.name, number))
 
 
