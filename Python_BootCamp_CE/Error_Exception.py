@@ -28,3 +28,12 @@ try:
     f.write('Write to the test line')
 except TypeError:
     print('There was an error')
+
+
+def ask_for_int():
+    try:
+        result = int(input('Please provide an input: '))
+    except:
+        print("Whoops this is not a number")
+    finally:
+        print('Final ')
