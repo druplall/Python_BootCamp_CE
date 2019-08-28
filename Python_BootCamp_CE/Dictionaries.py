@@ -31,6 +31,10 @@ universities = [
     }
 ]
 
+print('Printing list of dictionaries:' + universities[1]['name'])
+for i in universities:
+    print(i['name'])
+
 stores = [
     {
         'name': 'My Wonderful Store',

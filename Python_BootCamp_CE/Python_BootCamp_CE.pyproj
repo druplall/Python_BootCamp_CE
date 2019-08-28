@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>39822106-06dd-4aff-b553-175ae28835e0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Class_Polymorphism.py</StartupFile>
+    <StartupFile>Error_Exception.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -34,13 +34,18 @@
     <Compile Include="Class_Polymorphism.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Class_Special.py" />
     <Compile Include="Conditional_Statements.py" />
     <Compile Include="Data_Structures.py" />
     <Compile Include="debug.py" />
     <Compile Include="Dictionaries.py" />
+    <Compile Include="Error_Exception.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="flask_api.py" />
     <Compile Include="ForLoop.py" />
     <Compile Include="Function.py" />
+    <Compile Include="GUI.py" />
     <Compile Include="Keyword_argument.py" />
     <Compile Include="Lists.py">
       <SubType>Code</SubType>
@@ -50,10 +55,14 @@
     </Compile>
     <Compile Include="Statement Assessment Test.py" />
     <Compile Include="Strings.py" />
+    <Compile Include="TicTacToe.py" />
     <Compile Include="Tuples.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Variable_Assignments.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="testfile" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
